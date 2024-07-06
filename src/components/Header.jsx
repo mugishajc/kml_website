@@ -88,7 +88,7 @@ const Header = () => {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <nav className="px-6 py-4 md:hidden bg-ghostwhite-200">
+        <nav className="px-6 py-4 md:hidden bg-primary">
           <a
             href="/"
             onClick={closeMobileMenu}
