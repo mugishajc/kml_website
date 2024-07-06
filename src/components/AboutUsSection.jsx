@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutUsSection = () => {
   return (
-    <section id="about" className="flex flex-col items-center w-full px-16 py-20 mx-auto bg-white md:w-8/12 max-md:px-5 max-md:max-w-full">
+    <section
+      id="about"
+      className="relative flex flex-col items-center w-full px-16 py-20 mx-auto bg-[#f7f9fb] rounded-lg -top-24 md:w-8/12 max-md:px-5 max-md:max-w-full"
+    >
       <h2 className="text-3xl font-bold leading-10 text-center text-midnightblue-100 max-md:max-w-full">
         Why Delasoft?
       </h2>

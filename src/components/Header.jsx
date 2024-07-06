@@ -12,11 +12,11 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full shadow-md bg-ghostwhite-200">
+    <header className="w-full text-white shadow-md bg-primary">
       <div className="flex items-center justify-center max-w-screen-xl px-6 py-4 mx-auto">
         <div className="flex flex-wrap items-center justify-between w-full gap-5">
           <div className="cursor-pointer flex flex-row items-center justify-center relative gap-[0.5rem]">
-            <div className="h-[2.125rem] w-[2.125rem] rounded-8xs bg-forestgreen overflow-hidden shrink-0" />
+            <div className="h-[2.125rem] w-[2.125rem] rounded-8xs bg-white overflow-hidden shrink-0" />
             <img
               className="h-[1.125rem] w-[1.125rem] absolute !m-[0] top-[0.5rem] left-[0.5rem] object-contain z-[1]"
               alt=""
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="items-center hidden gap-5 md:flex">
             <a
               href="#contact"
-              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-white transition-colors duration-300 rounded bg-midnightblue-100 hover:bg-darkslateblue hover:scale-105"
+              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-primary transition-colors duration-300 rounded bg-white hover:bg-ghostwhite-100 hover:scale-105"
             >
               Contact Us
             </a>

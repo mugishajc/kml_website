@@ -16,8 +16,9 @@ const Team = ({ className = "" }) => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row flex-wrap items-center justify-center relative gap-[1.875rem] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] text-left text-[1.5rem] mq750:grid-cols-[minmax(277px,_1fr)] mq1050:justify-center mq1050:grid-cols-[repeat(2,_minmax(277px,_481px))]">
-        {team?.length > 0 && team?.map((person) => (
+        {team?.length > 0 && team?.map((person, i) => (
           <Person
+          key={i}
           image={person?.image}
           name={person?.name}
           position={person?.position}

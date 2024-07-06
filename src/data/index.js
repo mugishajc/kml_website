@@ -82,12 +82,12 @@ export const products = [
 ];
 export const team = [
   {
-    image: "https://cdn.theorg.com/a8a49e96-b238-4bfc-8f8a-844586626848_thumb.jpg",
+    image: "https://www.drupal.org/files/user-pictures/picture-2204516-1469808304.png",
     name: "Jean Claude Mugisha",
     position: "Founder & CEO",
   },
   {
-    image: "/avatars/image.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqobHPSYh32v5OkM8yBfdkGNhWI_5x2LKGz_DZw4UrZh2GXbQsDYL6747iRDM8F7PFT0&usqp=CAU",
     name: "John Doe",
     position: "Finance Manager",
   },
@@ -95,7 +95,8 @@ export const team = [
     image: "https://avatars.design/wp-content/uploads/2021/02/corporate-avatars.jpg",
     name: "Jane Doe",
     position: "Software Developer",
-  }
+  },
+
 ];
 
 export const services = [

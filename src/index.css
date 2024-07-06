@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
 body {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -16,9 +22,32 @@ body {
 p, b, span {
   @apply text-dimgray;
 }
+.card {
+  transition: all 0.5s ease-in-out;
+}
 
-*,
-::before,
-::after {
-  border-width: 0;
+.card.opacity-0 {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.card.opacity-100 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+blockquote.scale-0 {
+  transform: scale(0);
+}
+
+blockquote.scale-100 {
+  transform: scale(1);
+}
+
+.details.translate-y-[150px] {
+  transform: translateY(150px);
+}
+
+.details.translate-y-0 {
+  transform: translateY(0);
 }

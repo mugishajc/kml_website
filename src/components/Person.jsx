@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Person = ({ className = "", image, name, position }) => {
   return (
     <div
-      className={`flex flex-col items-center justify-center gap-[1.5rem] max-w-full text-left text-[1.5rem] text-midnightblue-100 font-space-grotesk ${className}`}
+      className={`border-2 pb-3 rounded-lg border-ghostwhite-100 flex flex-col items-center justify-center gap-[1.5rem] max-w-full text-left text-[1.5rem] text-midnightblue-100 font-space-grotesk ${className}`}
     >
       <img
         className="self-stretch h-[22.125rem] rounded-xl max-w-full overflow-hidden shrink-0 object-cover object-top"

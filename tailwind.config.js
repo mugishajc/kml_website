@@ -18,6 +18,7 @@ export default {
           "200": "rgba(6, 3, 54, 0.45)",
         },
         forestgreen: "#2da247",
+        primary: "#d62645",
         blueviolet: "#4f45eb",
         darkgray: "#959595",
         darkslateblue: "#383669",

@@ -24,7 +24,7 @@ const ServicesSection = () => {
               />
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold">{service.title}</h3>
-                <p className="mb-4 text-gray-700">{service.description}</p>
+                <p className="mb-4 text-sm text-gray-700">{service.description}</p>
               </div>
             </div>
           ))}

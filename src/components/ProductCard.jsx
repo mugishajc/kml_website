@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductCard = ({ imageSrc, title, description, link }) => (
-  <div className="h-[300px] flex flex-col items-center self-stretch justify-center w-full py-8 transition-all duration-300 bg-white border rounded-lg shadow-sm group hover:bg-forestgreen grow px-7 max-md:px-5 max-md:mt-6 hover:shadow-lg border-gainsboro">
+  <div className="h-[300px] flex flex-col items-center self-stretch justify-center w-full py-8 transition-all duration-300 bg-white border rounded-lg shadow-sm group hover:bg-primary grow px-7 max-md:px-5 max-md:mt-6 hover:shadow-lg border-gainsboro">
     <img
       loading="lazy"
       src={imageSrc}
