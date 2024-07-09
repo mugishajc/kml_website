@@ -15,14 +15,14 @@ const MainSection = () => {
   }, []);
 
   return (
-    <section className="flex items-center justify-center w-full px-16 py-10 text-white bg-primary max-md:px-5 max-md:max-w-full">
+    <section className="flex items-center justify-center w-full px-16 py-10 bg-primary max-md:px-5 max-md:max-w-full">
       <div className="justify-end w-11/12 max-w-full mb-32 md:w-10/12 max-md:mb-10">
         <div className="flex flex-col flex-wrap items-center justify-center gap-5 md:flex-row max-md:gap-0">
           <div className="flex flex-col w-full md:w-[55%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch pt-3.5 pr-5 my-auto text-5xl font-bold max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-              <h1 className="text-3xl break-before-all max-md:max-w-full md:text-[45px] lg:text-5xl md:text-start text-center tracking-[-0.02em]">
+              <h1 className="leading-[1.2] text-3xl break-before-all max-md:max-w-full md:text-[45px] lg:text-5xl md:text-start text-center tracking-[-0.02em]">
                 Trust us for excellency in{" "}
-                <span className="text-white">
+                <span className="mt-2 text-midnightblue-100">
                   <TextTransition
                     direction="down"
                     inline
@@ -34,7 +34,7 @@ const MainSection = () => {
               </h1>
               <a
                 href="#contact"
-                className="self-center justify-center py-3 mx-auto mt-5 text-base text-center transition-all duration-300 bg-white rounded text-primary md:mx-0 md:mt-12 md:self-start hover:bg-ghostwhite-100 px-7 hover:scale-105 max-md:px-5"
+                className="self-center justify-center py-3 mx-auto mt-5 text-base text-center transition-all duration-300 rounded text-primary md:mx-0 md:mt-12 md:self-start bg-midnightblue-100 hover:bg-darkslateblue px-7 hover:scale-105 max-md:px-5"
               >
                 Contact Us
               </a>

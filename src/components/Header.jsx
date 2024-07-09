@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full text-white shadow-md bg-primary">
+    <header className="w-full shadow-md bg-primary">
       <div className="flex items-center justify-center max-w-screen-xl px-6 py-4 mx-auto">
         <div className="flex flex-wrap items-center justify-between w-full gap-5">
           <div className="cursor-pointer flex flex-row items-center justify-center relative gap-[0.5rem]">
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="items-center hidden gap-5 md:flex">
             <a
               href="#contact"
-              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-primary transition-colors duration-300 rounded bg-white hover:bg-ghostwhite-100 hover:scale-105"
+              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-primary transition-colors duration-300 rounded bg-midnightblue-100 hover:bg-darkslateblue hover:scale-105"
             >
               Contact Us
             </a>
@@ -88,7 +88,7 @@ const Header = () => {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <nav className="px-6 py-4 md:hidden bg-primary">
+        <nav className="px-6 py-4 bg-white border-y-[1px] border-slate-300 md:hidden ">
           <a
             href="/"
             onClick={closeMobileMenu}
@@ -123,13 +123,6 @@ const Header = () => {
             className="block mb-2 transition-all cursor-pointer hover:scale-105"
           >
             Team
-          </a>
-          <a
-            href="#contact"
-            onClick={closeMobileMenu}
-            className="block text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-white transition-colors duration-300 rounded bg-midnightblue-100 hover:bg-darkslateblue hover:scale-105"
-          >
-            Contact Us
           </a>
         </nav>
       )}
