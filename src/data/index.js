@@ -70,7 +70,7 @@ export const team = [
     position: "Operation Manager",
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqobHPSYh32v5OkM8yBfdkGNhWI_5x2LKGz_DZw4UrZh2GXbQsDYL6747iRDM8F7PFT0&usqp=CAU",
+    image: "/images/darius.jpeg",
    name: "Darius Ishimwe",
     position: "IT Expert",
   },
