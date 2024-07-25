@@ -44,9 +44,10 @@ blockquote.scale-100 {
   transform: scale(1);
 }
 
-.details.translate-y-[150px] {
+.details.translate-y-150 {
   transform: translateY(150px);
 }
+
 
 .details.translate-y-0 {
   transform: translateY(0);

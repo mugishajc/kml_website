@@ -36,65 +36,43 @@ export const products = [
   {
     imageSrc:
       "/products/1.png",
-    title: "SMS",
+    title: "CRM Systems",
     description:
-      "Real-time delivery alerts and two-way messaging are included.",
-    link: "https://www.google.com"
+      "Streamline customer interactions, manage sales pipelines, and enhance satisfaction with our comprehensive CRM solutions.",
+    link: "#"
   },
   {
     imageSrc:
       "/products/3.png",
-    title: "USSD",
-    description: "Interactive messaging experience for customer support.",
-    link: "https://www.google.com"
+    title: "Patient MIS",
+    description: "Efficiently manage patient information, appointments, billing, and medical records with our secure and intuitive patient management systems.",
+    link: "#"
   },
   {
     imageSrc:
       "/products/4.png",
-    title: "Phone call",
-    description: "Work smarter with automated call distributions.",
-    link: "https://www.google.com"
+    title: "Digital Transformation Tools",
+    description: "Modernize operations, drive innovation, and boost efficiency with our advanced digital transformation tools.”",
+    link: "#"
   },
-  {
-    imageSrc:
-      "/products/5.png",
-    title: "IVR",
-    description: "Quickly connect customers to the right representative.",
-    link: "https://www.google.com"
-  },
-  {
-    imageSrc:
-      "/products/3.png",
-    title: "Verify",
-    description:
-      "Verify users and prevent fraudsters from slipping through the cracks.",
-    link: "https://www.google.com"
-  },
-  {
-    imageSrc:
-      "/products/2.png",
-    title: "Campaign",
-    description:
-      "Schedule and broadcast messages to your contacts with ease.",
-    link: "https://www.google.com"
-  },
+  
 
 ];
 export const team = [
   {
-    image: "https://www.drupal.org/files/user-pictures/picture-2204516-1469808304.png",
-    name: "Jean Claude Mugisha",
+    image: "/images/xavier.jpeg",
+    name: "Kagesera Xavier",
     position: "Founder & CEO",
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqobHPSYh32v5OkM8yBfdkGNhWI_5x2LKGz_DZw4UrZh2GXbQsDYL6747iRDM8F7PFT0&usqp=CAU",
-    name: "John Doe",
-    position: "Finance Manager",
+    image: "/images/mutesi.jpeg",
+    name: "Mutesi Xavier",
+    position: "Operation Manager",
   },
   {
-    image: "https://avatars.design/wp-content/uploads/2021/02/corporate-avatars.jpg",
-    name: "Jane Doe",
-    position: "Software Developer",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqobHPSYh32v5OkM8yBfdkGNhWI_5x2LKGz_DZw4UrZh2GXbQsDYL6747iRDM8F7PFT0&usqp=CAU",
+   name: "Darius Ishimwe",
+    position: "IT Expert",
   },
 
 ];
@@ -103,16 +81,16 @@ export const services = [
   {
     imageUrl: 'https://www.weetechsolution.com/wp-content/uploads/2022/04/Laptop-for-Web-Development-1.jpg',
     title: 'Web Development',
-    description: 'Count on us for excellence in web development. We use the latest technologies to deliver top-notch services.',
+    description: 'We create stunning and responsive websites tailored to your business needs, ensuring a seamless user experience and robust performance.',
   },
   {
     imageUrl: 'https://cdn.prod.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5758186fbd8_ABM%20college%20mobile%20app%20dev%20main.jpg',
     title: 'Mobile Development',
-    description: 'Count on us for excellence in mobile development. We use the latest technologies to deliver top-notch services.',
+    description: ' From concept to launch, our mobile development team builds intuitive and high-performing apps for both Android and iOS platforms, enhancing your digital presence.',
   },
   {
     imageUrl: 'https://www.weetechsolution.com/wp-content/uploads/2022/04/Laptop-for-Web-Development-1.jpg',
     title: 'IT Consultancy',
-    description: 'We also offer IT Consultancy. lorem ipsum dolor sit amet non proident in vul tell',
+    description: 'Our expert IT consultants provide strategic guidance and practical solutions to optimize your technology infrastructure and drive your business forward.',
   },
 ];

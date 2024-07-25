@@ -32,8 +32,8 @@ const REVIEWS = [
   },
   {
     id: 13,
-    name: "Ethan",
-    role: "Software Engineer",
+    name: "Jean Claude Mugisha",
+    role: "Senior Software Engineer",
     avatar: "https://i.pravatar.cc/150?img=57",
     review: `An adventure for the curious mind. Every click led to a new discovery. It's like a digital journey through the wonders of the internet.`,
   },
@@ -61,7 +61,7 @@ const REVIEWS = [
   {
     id: 5,
     name: "Ian",
-    role: "CTO",
+    role: "Tech Lead",
     avatar: "https://i.pravatar.cc/150?img=33",
     review: `Discovering new beats is addictive with this service. The curated playlists are spot-on, and the personalized recommendations are eerily accurate. A music lover's paradise!`,
   },
@@ -88,7 +88,7 @@ const Testimonials = () => {
       <main className="w-full max-w-2xl p-8 my-4 text-center bg-white border-2 md:max-w-4xl border-gainsboro rounded-3xl sm:p-16">
         <h1 className="text-xl font-bold md:text-3xl">A word from our customers</h1>
         <p className="my-2 text-sm">
-          We've been helping businesses do their best since 2018
+          We've been helping businesses do their best since 2023
         </p>
 
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-[60px_auto_60px] [grid-template-areas:'slider_slider'_'nav-left_nav-right'] sm:[grid-template-areas:'nav-left_slider_nav-right'] gap-2 sm:gap-6">

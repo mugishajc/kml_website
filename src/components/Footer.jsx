@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-10 mb-10 md:flex-row md:justify-between">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-midnightblue-100">
-              Delasoft Ltd
+              KML Innovate Ltd
             </h3>
             <p className="mt-2 text-base leading-6">
               We believe in treating our customers with respect and faith.
@@ -18,13 +18,15 @@ const Footer = () => {
               Contact Us
             </h3>
             <p className="mt-2 text-base leading-6">
-              <a href="mailto:info@delasoft.com" className="hover:underline">
-                info@delasoft.com
+              <a href="mailto:info@KML Innovate.com" className="hover:underline">
+               Email:  kageseraxavier@gmail.com
               </a>
               <br />
-              +250 788 868 458
+             Phone Number: +1 (937) 977-5233
               <br />
-              Kigali-Rwanda
+             Phone Number: +250 788 423 292
+              <br />
+              Rwanda-Kigali-Nyarugenge
             </p>
           </div>
           <div className="text-center md:text-left">
@@ -52,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full py-4 text-sm text-center text-dimgray">
-        &copy; {new Date().getFullYear()} Delasoft Ltd. All Rights Reserved.
+        &copy; {new Date().getFullYear()} KML Innovate Ltd. All Rights Reserved.
       </div>
     </footer>
   );

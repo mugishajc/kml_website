@@ -1,9 +1,10 @@
 {
-  "name": "delasoft-ltd-website",
+  "name": "KML Innovate-ltd-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "Aime Igirimpuhwe",
+  "homepage": "www.kml.mn-rentals.com",
+  "author": "Mugisha Jean Claude",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

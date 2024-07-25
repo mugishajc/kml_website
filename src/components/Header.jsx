@@ -23,7 +23,7 @@ const Header = () => {
               src="/icon.svg"
             />
             <a href="/" className="text-lg font-bold">
-              Delasoft
+              KML Innovate
             </a>
           </div>
           <nav className="items-center hidden text-base font-medium md:flex gap-7">
@@ -43,7 +43,7 @@ const Header = () => {
               href="#products"
               className="transition-all cursor-pointer hover:scale-105"
             >
-              Products
+             Solutions 
             </a>
             <a
               href="#services"
