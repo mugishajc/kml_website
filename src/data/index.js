@@ -61,12 +61,12 @@ export const products = [
 export const team = [
   {
     image: "/images/xavier.jpeg",
-    name: "Kagesera Xavier",
+    name: "KOMEZUYISABE Louis",
     position: "Founder & CEO",
   },
   {
     image: "/images/mutesi.jpeg",
-    name: "Mutesi Xavier",
+    name: "MUTESI Callixta",
     position: "Operation Manager",
   },
   {
