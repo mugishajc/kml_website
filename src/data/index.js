@@ -67,11 +67,15 @@ export const team = [
   {
     image: "/images/mutesi.jpeg",
     name: "MUTESI Callixta",
-    position: "Operation Manager",
+    position: "Managing Director",
+  }, {
+    image: "/images/dagobert.jpeg",
+    name: "RUGWIRO DAGOBERT",
+    position: "Director Of People And Culture",
   },
   {
     image: "/images/darius.jpeg",
-   name: "Darius Ishimwe",
+   name: "ISHIMWE Darius",
     position: "IT Expert",
   },
 

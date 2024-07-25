@@ -20,7 +20,7 @@ const Header = () => {
             <img
               className="h-[1.125rem] w-[1.125rem] absolute !m-[0] top-[0.5rem] left-[0.5rem] object-contain z-[1]"
               alt=""
-              src="/icon.svg"
+              src="/kml_logo.svg"
             />
             <a href="/" className="text-lg font-bold">
               KML Innovate

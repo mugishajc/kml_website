@@ -21,6 +21,7 @@ const MainSection = () => {
           <div className="flex flex-col w-full md:w-[55%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch pt-3.5 pr-5 my-auto text-5xl font-bold max-md:mt-10 max-md:max-w-full max-md:text-4xl">
               <h1 className="leading-[1.2] text-3xl break-before-all max-md:max-w-full md:text-[45px] lg:text-5xl md:text-start text-center tracking-[-0.02em]">
+              
                 Trust us for excellency in{" "}
                 <span className="mt-2 text-midnightblue-100">
                   <TextTransition
