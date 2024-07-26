@@ -35,7 +35,7 @@ const MainSection = () => {
               </h1>
               <a
                 href="#contact"
-                className="self-center justify-center py-3 mx-auto mt-5 text-base text-center transition-all duration-300 rounded text-primary md:mx-0 md:mt-12 md:self-start bg-midnightblue-100 hover:bg-darkslateblue px-7 hover:scale-105 max-md:px-5"
+                className="self-center justify-center py-3 mx-auto mt-5 text-base text-center transition-all duration-300 rounded text-white md:mx-0 md:mt-12 md:self-start bg-midnightblue-100 hover:bg-darkslateblue px-7 hover:scale-105 max-md:px-5"
               >
                 Contact Us
               </a>

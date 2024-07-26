@@ -20,16 +20,16 @@ const Header = () => {
             <img
               className="h-[1.125rem] w-[1.125rem] absolute !m-[0] top-[0.5rem] left-[0.5rem] object-contain z-[1]"
               alt=""
-              src="/kml_logo.svg"
+              src="/icon.svg"
             />
-            <a href="/" className="text-lg font-bold">
+            <a href="/" className="text-lg  font-bold">
               KML Innovate
             </a>
           </div>
           <nav className="items-center hidden text-base font-medium md:flex gap-7">
             <a
               href="/"
-              className="transition-all cursor-pointer hover:scale-105"
+              className="transition-all  cursor-pointer hover:scale-105"
             >
               Home
             </a>
@@ -47,13 +47,13 @@ const Header = () => {
             </a>
             <a
               href="#services"
-              className="transition-all cursor-pointer hover:scale-105"
+              className="transition-all  cursor-pointer hover:scale-105"
             >
               Services
             </a>
             <a
               href="#team"
-              className="transition-all cursor-pointer hover:scale-105"
+              className="transition-all  cursor-pointer hover:scale-105"
             >
               Team
             </a>
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="items-center hidden gap-5 md:flex">
             <a
               href="#contact"
-              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-primary transition-colors duration-300 rounded bg-midnightblue-100 hover:bg-darkslateblue hover:scale-105"
+              className="text-[1rem] leading-[1.625rem] font-medium px-4 py-2 text-white transition-colors duration-300 rounded bg-midnightblue-100 hover:bg-darkslateblue hover:scale-105"
             >
               Contact Us
             </a>
